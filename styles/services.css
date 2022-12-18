@@ -1,0 +1,48 @@
+
+.marquee {
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    background: rgba(250, 255, 164, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .track {
+    min-width: 100vw;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 18s linear infinite;
+}
+.track1 {
+    min-width: 100vw;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee1 18s linear infinite;
+  }
+
+  
+  .content {
+    font-family: "Roboto";
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0%); }
+    to { transform: translateX(-100%); }
+  }
+  
+
+  @keyframes marquee1 {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0%); }
+  }
+  
+
+  .service-option {
+    width: 80%;
+    font-family: 'Roboto Serif' , serif;
+    max-height: 100px;
+  }

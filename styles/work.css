@@ -1,0 +1,55 @@
+.project-title {
+     max-width: 50vw;
+}
+
+.text-works-title {
+     /* font-size: 30rem; */
+     line-height: 90%;
+}
+.text-works-title:nth-child(2) {
+     margin-left: 45vw;
+}
+
+.pin{
+     height: 100vh;
+     overflow: hidden;
+}
+.work {
+     width: 100vw;
+     height: 100vh;
+     background: rgb(255, 255, 255);
+     position: absolute; 
+     top: 0;
+}
+.work-name,.work-page-no {
+     font-family: "Delirium NCV";
+}
+.work-name {
+     line-height: 98%;
+}
+.work-category {
+     font-family: 'Aldrich';
+     color: rgba(0, 0, 0, 0.493);
+}
+.work-page-no {
+     position: absolute;
+     top: 40px;
+     right: 50px;
+     color: rgba(0, 0, 0, 0.361);
+}
+.work-details {
+  max-width: 50%; 
+  font-family: "Roboto Serif";
+  font-weight: 200;  
+}
+.work:nth-child(2) {
+     background: #000;
+     color: white;
+}
+.work:nth-child(2) .work-category {
+     color: rgba(255, 255, 255, 0.419);
+}
+.work:nth-child(2) .work-page-no {
+     color: rgba(255, 255, 255, 0.419);
+}
+

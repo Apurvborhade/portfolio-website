@@ -9,9 +9,9 @@ import {FiArrowUpRight} from 'react-icons/fi'
 import BgLines from './BgLines'
 import {useCustomScroll} from '../hooks/useCustomScroll'
 const Works = () => {
+  useCustomScroll(e)
   
   useEffect((e) => {
-    useCustomScroll(e)
     const tl = gsap.timeline()
     tl.to(".projects",{
       yPercent:-100,

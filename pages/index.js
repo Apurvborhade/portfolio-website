@@ -77,6 +77,13 @@ export default function Home() {
         <title>Apurv Borhade</title>
         <meta name="description" content="Apurv Borhade Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Unbounded:wght@500&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap" rel="stylesheet"/>
       </Head>
 
 

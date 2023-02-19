@@ -96,7 +96,7 @@ export default function Home() {
               <footer className={`${styles.footer} footer-wrapper flex flex-col justify-center items-center`}>
                 <div className={`${styles.socials} socials border-y grid lg:grid-cols-3 grid-rows-1`}>
                   <div className='border-r col-span-2 flex items-center lg:block hidden'>
-                    <p className={`lg:text-biggest md:text-big line-h-90 text-big `}>APURV <br/> BORHADE</p>
+                    <p className={`lg:text-biggest md:text-big line-h-90 text-big footer-font`}>APURV <br/> BORHADE</p>
                   </div>
                   <div className='grid grid-rows-3 grid-cols-1'>
                     <a href='https://instagram.com/apurvagen' target="_blank"  rel="noreferrer" className='flex  justify-center items-center border-b text-5xl'>Instagram <FiArrowUpRight size={50} /></a>

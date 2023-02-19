@@ -92,8 +92,8 @@ body::-webkit-scrollbar {
 }
 
 @font-face {
-    font-family: "";
-    src: url("C:\Users\Windows 10\Downloads\Compressed\fty-delirium-ncv-font\DeliriumNcv-Vm5e.ttf");
+    font-family: "Delirium NCV";
+    src: url("../public/DeliriumNcv-Vm5e.ttf");
 }
 @font-face {
     font-family: "Neue Montreal";

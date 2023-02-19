@@ -9,11 +9,16 @@
 }
 
 .landing{
-        
     height: 80vh;
 }
 
+.landing-wrapper {
+    font-family: 'Alexandria';
+}
 
+.projects-wrapper {
+    font-family: "Delirium NCV";
+}
 
 .infoDiv {
     background: rgba(255, 255, 255, 0.976);
@@ -25,7 +30,6 @@
 .projects {
     width: 100%;
     height: 105vh;
-    font-family: "Delirium NCV";
     z-index: 1;
 }
 .works {

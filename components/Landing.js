@@ -35,7 +35,7 @@ const Landing = () => {
   })
   return (
     <>
-    <div className={`flex landing justify-center items-center ${styles.landing}`}>
+    <div className={`flex landing-wrapper justify-center items-center ${styles.landing}`}>
       <div className=''>
         <h1 className='text-6xl lg:text-9xl bg-white text-black anim-left'>FRONT-END</h1>
         <h1 className='text-6xl lg:text-9xl my-3 anim-right'>DEVELOPER</h1>

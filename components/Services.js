@@ -8,14 +8,14 @@ const Services = () => {
     <div className={`mt-20 ${styles.services}`}>
         <div class="marquee flex items-center border-y overflow-hidden">
             <div class="track flex w-pcent justify-around">
-                <div class="content text-8xl">&nbsp;SERVICES</div>
-                <div class="content text-8xl">&nbsp;SERVICES</div>
-                <div class="content text-8xl">&nbsp;SERVICES</div>
+                <div class="content lg:text-8xl text-3xl">&nbsp;SERVICES</div>
+                <div class="content lg:text-8xl text-3xl">&nbsp;SERVICES</div>
+                <div class="content lg:text-8xl text-3xl">&nbsp;SERVICES</div>
             </div>
             <div class="track1 flex w-pcent justify-around">
-                <div class="content text-8xl">&nbsp;SERVICES</div>
-                <div class="content text-8xl">&nbsp;SERVICES</div>
-                <div class="content text-8xl">&nbsp;SERVICES</div>            
+                <div class="content lg:text-8xl text-3xl">&nbsp;SERVICES</div>
+                <div class="content lg:text-8xl text-3xl">&nbsp;SERVICES</div>
+                <div class="content lg:text-8xl text-3xl">&nbsp;SERVICES</div>            
             </div>
         </div>
 

@@ -11,8 +11,8 @@ import {useCustomScroll} from '../hooks/useCustomScroll'
 const Works = () => {
   
   useEffect((e) => {
-    const tl = gsap.timeline()
     useCustomScroll(e)
+    const tl = gsap.timeline()
     tl.to(".projects",{
       yPercent:-100,
       scrollTrigger:{
@@ -83,7 +83,7 @@ const Works = () => {
             </div>
 
             <div className='work-details inline-block p-3'>
-              <p className='text-6xl'>A corporate and marine travel online platform that brings travel coordinators, travelers and travel advisors together.</p>
+              <p className='lg:text-6xl text-xl'>A corporate and marine travel online platform that brings travel coordinators, travelers and travel advisors together.</p>
 
               <div className='view-btn border border-black inline-block p-2 rounded-full'>
                 <FiArrowUpRight size={20} />
@@ -114,7 +114,7 @@ const Works = () => {
             </div>
 
             <div className='work-details inline-block p-3'>
-              <p className='text-6xl'>A corporate and marine travel online platform that brings travel coordinators, travelers and travel advisors together.</p>
+              <p className='lg:text-6xl text-xl'>A corporate and marine travel online platform that brings travel coordinators, travelers and travel advisors together.</p>
 
               <div className='view-btn  border border-black inline-block p-2 rounded-full'>
                 <FiArrowUpRight size={20} />
@@ -133,18 +133,17 @@ const Works = () => {
           </div>
           <div className='work-info'>
             <div className='carausel-wrapper absolute bottom-4 right-8 overflow-hidden'>
-              <div className='carousel flex'>
+              <div className='carousel flex w-full'>
                 <Image
                   src={projectImage}
                   width={750}
                   height={350}
                   />
-                
                 </div>
             </div>
 
             <div className='work-details inline-block p-3'>
-              <p className='text-6xl'>A corporate and marine travel online platform that brings travel coordinators, travelers and travel advisors together.</p>
+              <p className='lg:text-6xl text-xl'>A corporate and marine travel online platform that brings travel coordinators, travelers and travel advisors together.</p>
 
               <div className='view-btn border border-black inline-block p-2 rounded-full'>
                 <FiArrowUpRight size={20} />

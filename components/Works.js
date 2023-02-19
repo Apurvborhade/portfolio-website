@@ -54,7 +54,7 @@ const Works = (e) => {
     <div className='pin relative h-pcent'>
       <div className={`px-10 projects bg-black  ${styles.projects} flex justify-center items-center absolute`}>
       <BgLines />
-       <div className=''>
+       <div className='projects-wrapper'>
           <h2 className='mt-20 text-works-title lg:text-biggest inline-block text-9xl'>PERSONAL </h2>
           <h2 className='text-works-title lg:text-biggest text-9xl'>PROJECTS</h2>
         </div>

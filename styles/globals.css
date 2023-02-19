@@ -103,3 +103,11 @@ body::-webkit-scrollbar {
 .line-h-90 {
     line-height: 90%;
 }
+
+.landing {
+    font-family: 'Alexandria';
+}
+
+.projects-wrapper {
+    font-family: "Delirium NCV";
+}

@@ -111,3 +111,7 @@ body::-webkit-scrollbar {
 .projects-wrapper {
     font-family: "Delirium NCV";
 }
+
+.work-category,.work-name {
+    font-family: "Delirium NCV";
+}

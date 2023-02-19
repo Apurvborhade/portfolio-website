@@ -52,8 +52,10 @@
     min-height: 100vh;
 }
 .footer {
-    font-family: 'Neue Montreal';
     min-height: 100vh;
+}
+.footer-wrapper {
+    font-family: 'Neue Montreal';
 }
 .socials {
     width: 100%;

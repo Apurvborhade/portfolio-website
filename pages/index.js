@@ -2,23 +2,48 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 // Components
 import Header from '../components/Header'
-import  gsap  from "gsap"
+
 import { useEffect } from 'react'
 import Landing from '../components/Landing'
 import About from '../components/About'
-import useLensiScroll from '../hooks/useLenisScroll'
 import Works from '../components/Works'
 import Services from '../components/Services'
 import { FiArrowUpRight } from 'react-icons/fi'
+import Lenis from '@studio-freight/lenis'
+
 
 
 
 
 export default function Home() {
 
+  
   useEffect(() => {
-    useLensiScroll()
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
+      direction: 'vertical', // vertical, horizontal
+      gestureDirection: 'vertical', // vertical, horizontal, both
+      smooth: true,
+      mouseMultiplier: 1,
+      smoothTouch: false,
+      touchMultiplier: 2,
+      infinite: false,
+    })
+    
+    //get scroll value
+    lenis.on('scroll', ({ scroll, limit, velocity, direction, progress }) => {
+      console.log({ scroll, limit, velocity, direction, progress })
+    })
+    
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+    
+    requestAnimationFrame(raf)
   })
+  
 
   return (
     <div className="" id="main-container">
@@ -67,9 +92,9 @@ export default function Home() {
                     <p className={`lg:text-biggest md:text-big line-h-90 text-big ${styles.fontDelirium}`}>APURV <br/> BORHADE</p>
                   </div>
                   <div className='grid grid-rows-3 grid-cols-1'>
-                    <a href='https://instagram.com/apurvagen' target="_blank" className='flex  justify-center items-center border-b text-5xl'>Instagram <FiArrowUpRight size={50} /></a>
+                    <a href='https://instagram.com/apurvagen' target="_blank"  rel="noreferrer" className='flex  justify-center items-center border-b text-5xl'>Instagram <FiArrowUpRight size={50} /></a>
                     <a href='mailto:apurvaborhadee@gmail.com' className='flex  justify-center items-center border-b text-5xl'>Mail <FiArrowUpRight size={50} /></a>
-                    <a href='https://github.com/Apurvborhade' target="_blank" className='flex  justify-center items-center text-5xl'>Github <FiArrowUpRight size={50} /></a>
+                    <a href='https://github.com/Apurvborhade' target="_blank" rel="noreferrer"  className='flex  justify-center items-center text-5xl'>Github <FiArrowUpRight size={50} /></a>
                   </div>
                 </div>
 
@@ -81,3 +106,4 @@ export default function Home() {
     </div>
   )
 }
+

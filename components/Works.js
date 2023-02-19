@@ -8,8 +8,7 @@ import projectImage from '../public/project.jpg'
 import {FiArrowUpRight} from 'react-icons/fi'
 import BgLines from './BgLines'
 import {useCustomScroll} from '../hooks/useCustomScroll'
-const Works = () => {
-  useCustomScroll(e)
+const Works = (e) => {
   
   useEffect((e) => {
     const tl = gsap.timeline()

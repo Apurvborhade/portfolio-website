@@ -40,9 +40,9 @@ const About = () => {
     <div className='flex justify-center items-center about -z-50'>
         <div className={`text-black  ${styles.infoDiv} box p-20`}>
           <p className='lg:leading-snug text-3xl lg:text-6xl info-text opacity-1 font-thin'>
-            Hi, I'am Apurv 👋 I'm Frontend Developer based in India who like making fun and interactive things with code and focuses on writing clean and efficient code.
-            Hi, I'am Apurv 👋 I'm Frontend Developer based in India who like making fun and interactive things with code and focuses on writing clean and efficient code.
-            Hi, I'am Apurv 👋 I'm Frontend Developer based in India who like making fun and interactive things with code and focuses on writing clean and efficient code.
+            Hi, I&apos;am Apurv 👋 I&apos;m Frontend Developer based in India who like making fun and interactive things with code and focuses on writing clean and efficient code.
+            Hi, I&apos;am Apurv 👋 I&apos;m Frontend Developer based in India who like making fun and interactive things with code and focuses on writing clean and efficient code.
+            Hi, I&apos;am Apurv 👋 I&apos;m Frontend Developer based in India who like making fun and interactive things with code and focuses on writing clean and efficient code.
           </p>
           <div className='profile absolute bottom-10 right-10'>
                 

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 
 const Header = () => {
-    
+  
+
   return (
     <>
         <div className={`${styles.header} flex flex-col justify-between p-8`}>
